@@ -1,4 +1,4 @@
-# **sena-base-2021 v6.2.1**
+# **Las Tecnologías de la Información y la Comunicación (TIC)**
 
 ## **Enlace GitHubPages**
 

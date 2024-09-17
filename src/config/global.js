@@ -1,17 +1,23 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Las Tecnologías de la Información y la Comunicación (TIC)',
+    descripcionCurso:
+      'El componente formativo aborda la importancia de las TIC en la comunicación organizacional, destacando el papel de internet y la cultura organizacional en el acceso y uso de tecnologías. Se explican conceptos clave como redes, protocolos TCP/IP, y direcciones electrónicas. Además, se detallan herramientas y funciones de las TIC en la automatización, gestión y comunicación, impulsando la competitividad empresarial.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,27 +37,19 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Internet',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Cultura organizacional e internet',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Recursos tecnológicos',
         desarrolloContenidos: true,
       },
     ],
@@ -102,31 +100,128 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Internet ',
+      referencia:
+        'El Espectador (2019). Internet de las cosas: ¿Innovación en las empresas? | El Espectador. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=TxZPEBGvP0w  ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Cultura organizacional e internet ',
+      referencia:
+        'CNN en Español. (2020). El secreto del éxito de Netflix, ¿su cultura corporativa? Su copresidente ejecutivo nos responde. [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=M_Z2gLUWZJE  ',
+    },
+    {
+      tema: 'Cultura organizacional e internet ',
+      referencia:
+        'Magro, C., Salvatella, J., Álvarez, M., Herrero, O., Paredes, A., & Vélez, G. (2014, febrero). 8 <em>competencias digitales</em> [Libro electrónico]. RocaSalvatella. ',
+      tipo: 'Libro',
+      link:
+        'https://www.rocasalvatella.com/app/uploads/2018/1/maqueta_competencias_espanol.pdf',
+    },
+    {
+      tema: 'Recursos tecnológicos ',
+      referencia:
+        'Mantulak, M. J., Hernández Pérez, G. D., & Abreu Ledón, R. (2017). Los recursos tecnológicos y su transversalidad con aspectos laborales y ambientales: Un análisis de correspondencias. Universidad Central “Marta Abreu” de Las Villas. ',
+      tipo: 'Artículo',
+      link:
+        'https://www.researchgate.net/publication/337228086_LOS_RECURSOS_TECNOLOGICOS_Y_SU_TRANSVERSALIDAD_CON_ASPECTOS_LABORALES_Y_AMBIENTALES_UN_ANALISIS_DE_CORRESPONDENCIAS',
+    },
+    {
+      tema: 'Recursos tecnológicos ',
+      referencia:
+        'Unidad de Desarrollo Productivo. (2015). ¿Cómo beneficia la tecnología a mi negocio?. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=u25nYLn3toE  ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Canal',
+      significado:
+        'medio a través del cual se transmite el mensaje, estableciendo la conexión entre el emisor y el receptor. Ejemplos: el aire, en el caso de la voz; el hilo telefónico, en el caso de una conversación telefónica. ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Clima organizacional',
+      significado:
+        'conjunto de elementos propios del lugar de trabajo que influyen en la motivación y productividad de una persona. Incluye aspectos como el ambiente físico, el ambiente social y la estructura organizacional que rodean a un trabajador. ',
+    },
+    {
+      termino: 'Código',
+      significado:
+        'conjunto de reglas de cada sistema de signos y símbolos que el emisor utiliza para transmitir su mensaje, combinándolos de manera adecuada para que el receptor pueda comprenderlo. Ejemplo: la gramática de un idioma. ',
+    },
+    {
+      termino: 'Comunicación asertiva',
+      significado:
+        'forma de comunicación que ocurre en relaciones interpersonales donde los interlocutores pueden entablar diálogos en los que expresan libre, clara y precisamente sus pensamientos, ideas y sentimientos. ',
+    },
+    {
+      termino: 'Comunicación externa',
+      significado:
+        'se refiere a las dinámicas y políticas comunicativas que una organización adopta respecto a agentes externos. Incluye comunicados oficiales, publicidad, marketing, entre otros. ',
+    },
+    {
+      termino: 'Comunicación interna',
+      significado:
+        'dinámica comunicativa que se da entre los miembros internos de la organización. Es crucial para fomentar el compañerismo, la creatividad y la motivación en la organización. ',
+    },
+    {
+      termino: 'Comunicación no verbal',
+      significado:
+        'forma de comunicación que no utiliza signos gráficos o palabras para exteriorizar pensamientos y sentimientos. Incluye signos visuales, auditivos, olfativos, sonidos, gestos, movimientos corporales, posturas, miradas, entre otros. ',
+    },
+    {
+      termino: 'Comunicación organizacional',
+      significado:
+        'proceso dinámico que se materializa dentro de una colectividad social u organización. Implica la formulación, intercambio, procesamiento y almacenamiento de información entre los miembros de la organización. ',
+    },
+    {
+      termino: 'Comunicación técnica',
+      significado:
+        'proceso de transmisión de información a través de diferentes medios. ',
+    },
+    {
+      termino: 'Comunicación verbal',
+      significado:
+        'forma en que el ser humano exterioriza sus pensamientos y sentimientos mediante palabras, ya sea de manera oral o escrita. Se da principalmente en forma de diálogo. ',
+    },
+    {
+      termino: 'Contexto',
+      significado: 'iempo y lugar en que se realiza el acto comunicativo.',
+    },
+    {
+      termino: 'Emisor',
+      significado:
+        'persona encargada de suministrar el mensaje o información. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Alonso Cuesta, F. (2010). <em>Marketing Directo 2.0</em>, España (1ª ed.), Grupo Planeta. ISBN: 978-849875-0539.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gutiérrez, F. (2008). <em>Internet como herramienta para la investigación</em>, México (1ª ed.), Alfaomega Grupo Editor. ISBN: 978-970-151389-7.  ',
+      link: '',
+    },
+    {
+      referencia:
+        'Guzmán, R. (2007). <em>Comunicación Empresarial</em>, Bogotá (1ª ed.), Ecoe Ediciones Ltda. ISBN: 958-648-459-9.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pablos, C. (2004). <em>Sonia Informática y comunicaciones en la empresa</em>. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Suárez, R. (2010). <em>Tecnologías de la Información y la Comunicación. Introducción a los sistemas de información y de telecomunicación</em>. Ideas Propias Editorial. ',
       link: '',
     },
   ],
@@ -165,7 +260,7 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
