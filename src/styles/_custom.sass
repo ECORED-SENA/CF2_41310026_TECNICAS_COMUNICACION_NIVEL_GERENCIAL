@@ -68,13 +68,12 @@
 .cont_decorativo:before
   content: ''
   position: absolute
-  width: 94%
-  right: 3%
-  height: 67%
-  top: 18%
-  bottom: 15%
+  width: 100%
+  right: 0
+  height: 75%
+  top: 25%
+  border-radius: 4px
   background-color: #F6DE44
-  border-radius: 50px
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: #12263F !important
 .banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
@@ -91,14 +90,14 @@
   color: #fff
 
 .acordion .tarjeta
-  background-color: #E3EAE2
+  background-color: #CAE1F9
 .acordion .tarjeta.acordion__activo
-  background-color: #F6E5C2
+  background-color: #FEECE6
 .acordion .tarjeta.acordion__activo *
   color: #12263F
 .acordion__accion__btn--a
-  border: 1px solid #8804C3
-  background-color: #8804C3
+  border: 1px solid #8D1CE7
+  background-color: #8D1CE7
 .acordion__accion__btn--a i
   color: #fff !important
 
@@ -108,11 +107,11 @@
   position: absolute
   content: ''
   width: 115%
-  height: 110%
+  height: 130%
   left: -8%
-  top: -10%
+  top: -20%
   bottom: 10%
-  background: url(../assets/curso/intro3.png)
+  background: url(../assets/curso/intro4.png)
   background-size: 100% 100%
 
 .banner-interno__titulo__icono i
@@ -151,5 +150,20 @@
   .cont_decorativo:before
     height: 100%
     top: 0
-    bottom: 0
-    right: 6%
+@media screen and (max-width: 768px)
+  .cont_intro2
+    border-radius: 0px !important
+
+
+/******************Tema 1****************/
+.cont_1_1, .cont_1_1 *
+  position: relative
+.cont_1_1:before
+  position: absolute
+  content: ''
+  width: 115%
+  height: 100%
+  left: -8%
+  top: 25%
+  background: url(../assets/curso/intro4.png)
+  background-size: 100% 100%
