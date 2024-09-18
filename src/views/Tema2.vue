@@ -42,8 +42,84 @@
         figure 
           img(src="@/assets/curso/tema2/4.png")
     
-    .row.mt-5
+    .row.mt-5(data-aos="fade-up")
+      .col-lg-4.pe-lg-0.d-none.d-lg-block
+        figure
+          img(src="@/assets/curso/tema2/5.png" style="margin-left:1px;")
+      .col-lg-8.ps-lg-0
+        .p-4.h-100.d-flex.align-content-center.flex-wrap(style="background-color:#FEECE6;")
+          p.mb-0 La intranet no solo centraliza información clave como normas, procesos de trabajo y el portafolio de productos, sino que también ofrece una amplia gama de servicios que facilitan la operatividad y el bienestar de los empleados. Entre estos servicios se incluyen la expedición de certificados, la programación de capacitaciones tanto presenciales como virtuales, y la posibilidad de trabajar de manera colaborativa desde cualquier lugar con acceso a internet. Además, la intranet permite gestionar aspectos esenciales como la programación de vacaciones y el acceso a la nómina virtual, lo que optimiza el tiempo y mejora la eficiencia en la gestión de recursos humanos.
+
+    .cont_decorativo.mb-4.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0.ps-lg-4(style="place-self:start;")
+          figure
+            img(src="@/assets/curso/tema1/2.svg")
+        .col.ps-2(style="place-self:center;")
+          h3.mb-0.pe-4.pt-lg-3 ¿Cómo ayuda el correo electrónico en la comunicación digital?
     
+    .row
+      .col-lg(data-aos="fade-up")
+        p El correo electrónico en las Pymes es esencial para la comunicación y la gestión del conocimiento. Se subraya su relación e importancia en la comunicación organizacional. La tecnología ofrece cada vez más soluciones, pero también presenta nuevos retos.
+        .p-3(style="background-color:#CAE1F9;border-radius:13px;")
+          .row
+            .col-auto.d-none.d-md-block(style="place-self:center;")
+              figure 
+                img(src="@/assets/curso/tema2/6.svg")
+            .col(style="place-self:center;")
+              p.mb-0  En el pasado, las quejas en las organizaciones se centraban en cómo organizar documentos físicos; ahora, en pleno siglo XXI, las quejas giran en torno a problemas como: "No tengo tiempo para todos los correos", "Mi correo se llena en un instante", entre otros.
+      .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
+        figure
+          img(src="@/assets/curso/tema2/7.png")
+    
+    p.mt-4(data-aos="fade-right") Para optimizar la revisión diaria de los correos, existen cinco herramientas online para gestionar y organizar el correo electrónico, algunas aplicaciones que facilitan la clasificación, uso y gestión de correos, beneficiando una adecuada comunicación en las organizaciones.
+
+    .cont_1_1.mt-5.pb-5
+      .cont_2_1.pt-4.pb-4.pb-xl-5.pt-xl-5
+        .tarjeta.bg-white.p-4.p-lg-5.pt-lg-4.mt-4
+          LineaTiempoC.color-acento-contenido(text-small)
+            .row.pt-lg-4(titulo="Boomerang")
+              .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+                h5 Boomerang
+                p.mt-4 Permite programar el envío de correos electrónicos semanalmente, útil para usuarios en diferentes zonas horarias. Activa recordatorios para respuestas prioritarias y genera notificaciones de tareas específicas para el día siguiente. Funciona solo con Gmail y Google Apps, y cuenta con una versión para Android.
+              .col-lg-5(style="place-self:center;")
+                figure.m-auto.col-8.col-md-6.col-lg-12
+                  img(src='@/assets/curso/tema2/9.png')
+            .row.pt-lg-4(titulo="SaneBox")
+              .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+                h5 SaneBox
+                p.mt-4 Detecta y organiza automáticamente los mensajes más importantes en la bandeja de entrada, facilitando su revisión. Envía notificaciones de tareas pendientes o correos no respondidos. Funciona en todas las plataformas de correo electrónico y está disponible para todos los dispositivos móviles.
+              .col-lg-5(style="place-self:center;")
+                figure.m-auto.col-8.col-md-6.col-lg-12
+                  img(src='@/assets/curso/tema2/10.png')
+            .row.pt-lg-4(titulo="LetterMeLater")
+              .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+                h5 LetterMeLater
+                p.mt-4 Permite programar envíos futuros, editar mensajes antes de enviarlos, programar envíos con adjuntos recurrentes, crear mensajes de correo en HTML, y organizar contactos en grupos para listas de distribución. Sincroniza más de una cuenta de correo y permite programar envíos a través de mensajes de texto.
+              .col-lg-5(style="place-self:center;")
+                figure.m-auto.col-8.col-md-6.col-lg-12
+                  img(src='@/assets/curso/tema2/11.png')
+            .row.pt-lg-4(titulo="PhilterIt")
+              .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+                h5 PhilterIt
+                p.mt-4 Organiza los correos recibidos en carpetas identificables según la prioridad, dejando en la bandeja de entrada solo correos prioritarios. Envía un resumen diario de los contenidos organizados y tiene un sistema de bloqueo de spam que elimina automáticamente los mensajes marcados como no deseados. Está disponible para dispositivos móviles.
+              .col-lg-5(style="place-self:center;")
+                figure.m-auto.col-8.col-md-6.col-lg-12
+                  img(src='@/assets/curso/tema2/12.png')
+            .row.pt-lg-4(titulo="OtherInbox")
+              .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+                h5 OtherInbox
+                p.mt-4 Organiza los mensajes de forma visual en carpetas identificadas con íconos relacionados a cada correo (como logos de empresas o fotos de personas), facilitando el acceso a correos específicos. Permite gestionar múltiples marcas, comerciantes, organizaciones, instituciones, boletines de noticias, blogs, etc., en una sola plataforma. Actualmente, solo disponible para cuentas de Gmail.
+              .col-lg-5(style="place-self:center;")
+                figure.m-auto.col-8.col-md-6.col-lg-12
+                  img(src='@/assets/curso/tema2/13.png')
+
+
+
+
+
+
+
 
 </template>
 

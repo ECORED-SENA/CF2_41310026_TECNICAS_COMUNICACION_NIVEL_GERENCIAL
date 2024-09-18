@@ -17,7 +17,7 @@
         figure.m-auto.col-8.col-md-7.col-lg-12
           img(src="@/assets/curso/tema1/1.svg")
     
-    .cont_decorativo.mb-4.mt-4(data-aos="fade-right")
+    .cont_decorativo.mb-4.mt-5(data-aos="fade-right")
       .row
         .col-auto.pe-0.ps-lg-4(style="place-self:start;")
           figure

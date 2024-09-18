@@ -129,8 +129,11 @@
   display: inline
 
 .linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
-  border: 2px solid #F9C047
-  background-color: #F9C047
+  border: 2px solid #8D1CE7
+  background-color: #8D1CE7
+
+.linea-tiempo-c__header__btn i, .linea-tiempo-c__header__btn--left i, .linea-tiempo-c__header__btn--right i, .pasos-b__header__btn--left i, .pasos-b__header__btn--right i
+  color: #fff
 
 .pasos-b__header__item--active .pasos-b__header__item__dot span
   color: #fff !important
@@ -145,7 +148,7 @@
   font-weight: bold
 
 @media screen and (max-width: 992px)
-  .banner-principal .tarjeta, .cont_intro:before,.cont_sintesis,.tabs-c__content-item
+  .banner-principal .tarjeta, .cont_intro:before
     background-size: cover !important
   .cont_decorativo:before
     height: 100%
@@ -167,3 +170,91 @@
   top: 25%
   background: url(../assets/curso/intro4.png)
   background-size: 100% 100%
+
+@media screen and (max-width: 992px)
+  .cont_1_1:before
+    background-size: cover !important
+
+/******************Tema 2****************/
+.cont_2_1, .cont_2_1 *
+  position: relative
+.cont_2_1:before
+  position: absolute
+  content: ''
+  width: 115%
+  height: 100%
+  left: -8%
+  top: 0
+  background: url(../assets/curso/tema2/8.png)
+  background-size: 100% 100%
+
+@media screen and (max-width: 992px)
+  .cont_2_1:before
+    background-size: cover !important
+  
+/******************Tema 2****************/
+.cont_3_1, .cont_3_1 *
+  position: relative
+.cont_3_1:before
+  position: absolute
+  content: ''
+  width: 115%
+  height: 80%
+  left: -8%
+  top: 20%
+  background: url(../assets/curso/tema3/1.png)
+  background-size: 100% 100%
+
+.cont_3_3, .cont_3_3 *
+  position: relative
+.cont_3_3:before
+  position: absolute
+  content: ''
+  width: 115%
+  height: 100%
+  left: -8%
+  top: 0
+  background: url(../assets/curso/tema3/8.png)
+  background-size: 100% 100%
+
+.cont_3_4, .cont_3_4 *
+  position: relative
+.cont_3_4:before
+  position: absolute
+  content: ''
+  width: 115%
+  height: 60%
+  left: -8%
+  top: 0
+  background: url(../assets/curso/tema3/12.png)
+  background-size: 100% 100%
+
+.cont_3_5, .cont_3_5 *
+  position: relative
+.cont_3_5:before
+  position: absolute
+  content: ''
+  width: 115%
+  height: 100%
+  left: -8%
+  top: -70%
+  background: url(../assets/curso/tema3/8.png)
+  background-size: 100% 100%
+
+.tabs-b__tab
+  background-color: #F2F4F5
+  border-right: 2px solid #AFAFAF
+  border-bottom: 0px
+
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  background-color: #FFF6F3
+  border-right: 0px
+
+.tabs-b__content-item
+  background-color: #FFF6F3
+
+@media screen and (max-width: 992px)
+  .cont_3_1:before,.cont_3_3:before,.cont_3_4:before,.cont_3_5:before
+    background-size: cover !important
+  .cont_3_2
+    border-radius: 20px !important
