@@ -119,7 +119,7 @@ export default {
         'Magro, C., Salvatella, J., Álvarez, M., Herrero, O., Paredes, A., & Vélez, G. (2014, febrero). 8 <em>competencias digitales</em> [Libro electrónico]. RocaSalvatella. ',
       tipo: 'Libro',
       link:
-        'https://www.rocasalvatella.com/app/uploads/2018/1/maqueta_competencias_espanol.pdf',
+        'https://www.rocasalvatella.com/app/uploads/2018/11/maqueta_competencias_espanol.pdf',
     },
     {
       tema: 'Recursos tecnológicos ',
@@ -190,7 +190,7 @@ export default {
     },
     {
       termino: 'Contexto',
-      significado: 'iempo y lugar en que se realiza el acto comunicativo.',
+      significado: 'tiempo y lugar en que se realiza el acto comunicativo.',
     },
     {
       termino: 'Emisor',

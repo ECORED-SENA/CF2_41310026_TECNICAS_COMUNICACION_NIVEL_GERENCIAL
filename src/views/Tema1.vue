@@ -9,9 +9,9 @@
 
     .row
       .col-lg.order-2.order-lg-1(data-aos="fade-right")
-        p El 24 de octubre de 1995, el Consejo Federal de Redes (Federal Networking Council), en conjunto con otras instituciones, definió el término #[strong "Internet"] como el sistema de información global que conecta diversas redes de computadoras entre sí bajo el protocolo de comunicación TCP/IP.
+        p El 24 de octubre de 1995, el Consejo Federal de Redes (#[em Federal Networking Council]), en conjunto con otras instituciones, definió el término #[strong "Internet"] como el sistema de información global que conecta diversas redes de computadoras entre sí bajo el protocolo de comunicación TCP/IP.
         .p-4(style="background-color:#CAE1F9;border-radius:15px;")
-          p.mb-0 Cada dispositivo posee una dirección única para su reconocimiento (Internet Protocol, IP), y la red provee acceso a diferentes niveles de servicios de comunicación e información, ya sean públicos o privados.
+          p.mb-0 Cada dispositivo posee una dirección única para su reconocimiento (#[em Internet Protocol], IP), y la red provee acceso a diferentes niveles de servicios de comunicación e información, ya sean públicos o privados.
         p.mt-4 Internet es un conjunto descentralizado de redes de comunicación interconectadas que utilizan la familia de protocolos TCP/IP. Considerada la "red de redes", es un sistema universal de comunicaciones que ofrece múltiples servicios para la movilización y comunicación de la información, como Telnet y www, los cuales tienen un gran impacto social.
       .col-lg-auto.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-8.col-md-7.col-lg-12

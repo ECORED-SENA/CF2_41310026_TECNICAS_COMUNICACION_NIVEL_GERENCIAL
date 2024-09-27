@@ -80,7 +80,7 @@
               .col(style="place-self:center;")
                 p.fw-bold Trabajo colaborativo 
                 p.mb-0 Herramientas como las wikis facilitan el trabajo colaborativo, permitiendo la creación de contenido, participación en foros y otras actividades con solo un clic.
-          p.mb-4 Desde aproximadamente el año 2006, los blogs se han convertido en herramientas populares para la creación de contenido, tanto de manera individual como colectiva.
+          p.mb-4 Desde aproximadamente el año 2006, los #[em blogs] se han convertido en herramientas populares para la creación de contenido, tanto de manera individual como colectiva.
           .p-3(style="background-color:#CAE1F9;border-radius:12px;")
             .row
               .col-auto(style="place-self:center;")
@@ -110,28 +110,28 @@
             tbody
               tr.bg-white
                 td 
-                  p.mb-0 Automatización del proceso administrativo y burocrático
-                  p.mb-0 Control de gestión con el uso de la infraestructura necesaria
+                  p.mb-0 Automatización del proceso administrativo y burocrático.
+                  p.mb-0 Control de gestión con el uso de la infraestructura necesaria.
                 td 
                   p.mb-0 A nivel competitivo no genera ninguna ventaja. Afecta los costos y la eficiencia por su mal funcionamiento en gestión de la información registrada.
                   p.mb-0 Agrupa datos claves y estadísticos como instrumentos directivos bajo un lenguaje común a todos.
                 td 
-                  p.mb-0 Procesador de texto (Word, Writer, Pages)
-                  p.mb-0 Paquete de aplicaciones ofimáticas (Word, Excel, Power Point) Hojas de cálculo para tareas contables, estadísticas (Excel, Calc) 
+                  p.mb-0 Procesador de texto (Word, Writer, Pages).
+                  p.mb-0 Paquete de aplicaciones ofimáticas (Word, Excel, Power Point) Hojas de cálculo para tareas contables, estadísticas (Excel, Calc). 
               tr.bg-white
                 td 
-                  p.mb-0 Contribución a la producción, servicio o cadena de producción (depende del contenido informativo que se desea replicar)
+                  p.mb-0 Contribución a la producción, servicio o cadena de producción (depende del contenido informativo que se desea replicar).
                 td 
                   p.mb-0 Difunde información masiva para los colaboradores teniendo en cuenta el posicionamiento y la focalización de la actividad de la organización.
                 td 
-                  p.mb-0 Aplicaciones de comunicación por texto, (Skype, Chat, Foros) Aplicaciones de almacenamiento remoto (Dropbox, Drive, Google Drive) Aplicaciones para presentaciones elaboradas (Prezi, Power Point)
+                  p.mb-0 Aplicaciones de comunicación por texto, (Skype, Chat, Foros) Aplicaciones de almacenamiento remoto (Dropbox, Drive, Google Drive) Aplicaciones para presentaciones elaboradas (Prezi, Power Point).
               tr.bg-white
                 td 
-                  p.mb-0 Aporte al diseño de la organización y sus actividades
+                  p.mb-0 Aporte al diseño de la organización y sus actividades.
                 td 
                   p.mb-0 Permite hacer el diseño de los objetivos y la estructura de la organización liderando por los directivos de la organización.
                 td 
-                  p.mb-0 Paquete de aplicaciones ofimáticas (Word, Excel, Power Point) Paquetes Interactivos (Prezi, Google Drive, Google Docs Chat, Blogs Corporativos)
+                  p.mb-0 Paquete de aplicaciones ofimáticas (Word, Excel, Power Point) Paquetes Interactivos (Prezi, Google Drive, Google Docs Chat, #[em Blogs] Corporativos).
     
     p.mt-5(data-aos="fade-right") Esta funcionalidad permite a los usuarios de la organización realizar nuevas tareas en esta sociedad de la información, estas son: 
 
@@ -156,7 +156,7 @@
         .row.col-xl-11.m-auto
           .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
             h4 Integración de procesos
-            p La tecnología permite la integración de procesos, colaboradores/usuarios, cultura corporativa, objetivos y tecnología, tanto interna como externamente.
+            p La tecnología permite la integración de procesos, colaboradores / usuarios, cultura corporativa, objetivos y tecnología, tanto interna como externamente.
           .col-lg-4
             figure.m-auto.col-10.col-md-8.col-lg-12
               img(src='@/assets/curso/tema3/15.png')
