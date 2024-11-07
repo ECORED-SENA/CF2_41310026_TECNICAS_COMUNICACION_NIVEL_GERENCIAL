@@ -34,7 +34,7 @@
               p.text-white Lo invitamos a escuchar el siguiente Pódcast:  
               TarjetaAudio.color-acento-botones.mb-3.bg-white(
                 texto="Cultura organizacional e internet"
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/PAPEL_INTERNET.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 tiempo
               )
