@@ -80,7 +80,7 @@
               .col(style="place-self:center;")
                 p.fw-bold Trabajo colaborativo 
                 p.mb-0 Herramientas como las wikis facilitan el trabajo colaborativo, permitiendo la creación de contenido, participación en foros y otras actividades con solo un clic.
-          p.mb-4 Desde aproximadamente el año 2006, los #[em blogs] se han convertido en herramientas populares para la creación de contenido, tanto de manera individual como colectiva.
+          p.mb-4 Desde aproximadamente el año 2006, los Blogs se han convertido en herramientas populares para la creación de contenido, tanto de manera individual como colectiva.
           .p-3(style="background-color:#CAE1F9;border-radius:12px;")
             .row
               .col-auto(style="place-self:center;")
@@ -131,7 +131,7 @@
                 td 
                   p.mb-0 Permite hacer el diseño de los objetivos y la estructura de la organización liderando por los directivos de la organización.
                 td 
-                  p.mb-0 Paquete de aplicaciones ofimáticas (Word, Excel, Power Point) Paquetes Interactivos (Prezi, Google Drive, Google Docs Chat, #[em Blogs] Corporativos).
+                  p.mb-0 Paquete de aplicaciones ofimáticas (Word, Excel, Power Point) Paquetes Interactivos (Prezi, Google Drive, Google Docs Chat, Blogs Corporativos).
     
     p.mt-5(data-aos="fade-right") Esta funcionalidad permite a los usuarios de la organización realizar nuevas tareas en esta sociedad de la información, estas son: 
 

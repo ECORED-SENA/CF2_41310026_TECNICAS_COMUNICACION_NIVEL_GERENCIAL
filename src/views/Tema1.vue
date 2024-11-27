@@ -11,7 +11,7 @@
       .col-lg.order-2.order-lg-1(data-aos="fade-right")
         p El 24 de octubre de 1995, el Consejo Federal de Redes (#[em Federal Networking Council]), en conjunto con otras instituciones, definió el término #[strong "Internet"] como el sistema de información global que conecta diversas redes de computadoras entre sí bajo el protocolo de comunicación TCP/IP.
         .p-4(style="background-color:#CAE1F9;border-radius:15px;")
-          p.mb-0 Cada dispositivo posee una dirección única para su reconocimiento (#[em Internet Protocol], IP), y la red provee acceso a diferentes niveles de servicios de comunicación e información, ya sean públicos o privados.
+          p.mb-0 Cada dispositivo posee una dirección única para su reconocimiento (Internet Protocol, IP), y la red provee acceso a diferentes niveles de servicios de comunicación e información, ya sean públicos o privados.
         p.mt-4 Internet es un conjunto descentralizado de redes de comunicación interconectadas que utilizan la familia de protocolos TCP/IP. Considerada la "red de redes", es un sistema universal de comunicaciones que ofrece múltiples servicios para la movilización y comunicación de la información, como Telnet y www, los cuales tienen un gran impacto social.
       .col-lg-auto.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-8.col-md-7.col-lg-12
@@ -72,7 +72,7 @@
             .row.col-xl-11.m-auto(titulo="TCP (Protocolo de Control de Transmisión)")
               p El protocolo de comunicación TCP asegura que los datos lleguen a su destino sin errores ni alteraciones. Su transmisión se realiza en fragmentos pequeños o datagramas, los cuales son ensamblados nuevamente en su destino, garantizando que el mensaje se reciba correctamente.
             .row.col-xl-11.m-auto(titulo="Protocolos de comunicación para internet")
-              p Son números únicos asignados a cada dispositivo conectado a la red, permitiendo que sean reconocidos por otros. También se conocen como direcciones IP, y son fundamentales para la comunicación en internet. Ejemplos de incluyen:
+              p Son números únicos asignados a cada dispositivo conectado a la red, permitiendo que sean reconocidos por otros. También se conocen como direcciones IP, y son fundamentales para la comunicación en internet. Algunos ejemplos incluyen:
               ul.lista-ul
                 li.d-flex
                   i.fas.fa-bullhorn(style="color:#FA7247;")

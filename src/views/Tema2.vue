@@ -109,7 +109,7 @@
             .row.pt-lg-4(titulo="OtherInbox")
               .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
                 h5 OtherInbox
-                p.mt-4 Organiza los mensajes de forma visual en carpetas identificadas con íconos relacionados a cada correo (como logos de empresas o fotos de personas), facilitando el acceso a correos específicos. Permite gestionar múltiples marcas, comerciantes, organizaciones, instituciones, boletines de noticias, #[em blogs], etc., en una sola plataforma. Actualmente, solo disponible para cuentas de Gmail.
+                p.mt-4 Organiza los mensajes de forma visual en carpetas identificadas con íconos relacionados a cada correo (como logos de empresas o fotos de personas), facilitando el acceso a correos específicos. Permite gestionar múltiples marcas, comerciantes, organizaciones, instituciones, boletines de noticias, blogs, etc., en una sola plataforma. Actualmente, solo disponible para cuentas de Gmail.
               .col-lg-5(style="place-self:center;")
                 figure.m-auto.col-8.col-md-6.col-lg-12
                   img(src='@/assets/curso/tema2/13.png')
