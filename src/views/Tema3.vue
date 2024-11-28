@@ -80,7 +80,7 @@
               .col(style="place-self:center;")
                 p.fw-bold Trabajo colaborativo 
                 p.mb-0 Herramientas como las wikis facilitan el trabajo colaborativo, permitiendo la creación de contenido, participación en foros y otras actividades con solo un clic.
-          p.mb-4 Desde aproximadamente el año 2006, los Blogs se han convertido en herramientas populares para la creación de contenido, tanto de manera individual como colectiva.
+          p.mb-4 Desde aproximadamente el año 2006, los blogs se han convertido en herramientas populares para la creación de contenido, tanto de manera individual como colectiva.
           .p-3(style="background-color:#CAE1F9;border-radius:12px;")
             .row
               .col-auto(style="place-self:center;")
